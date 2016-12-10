@@ -1,0 +1,294 @@
+/* 
+
+Nature Template 
+
+http://www.templatemo.com/tm-398-nature
+
+*/
+
+body, html { overflow-x: hidden; }
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Balthazar', serif;
+    font-style: normal;
+	text-transform: uppercase;
+    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+	-webkit-hyphens: auto;
+}
+
+h1, h2, h3, h4, h5, h6, span, p { font-family: 'Balthazar', serif; text-transform: uppercase; letter-spacing: 1px;}
+
+h2 {
+	padding-left: 20px;
+}
+
+h3 {
+	color:#fff;
+	padding-left: 20px;
+}
+
+.disclaimer{
+	font-size:10px;
+	color: #FFFFFF;
+	text-align: justify;
+	max-width: 700px;
+	padding-left: 20px;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff; /* change if the mask should have another color then white */
+    z-index: 99; /* makes sure it stays on top */
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%; /* centers the loading animation horizontally one the screen */
+    top: 50%; /* centers the loading animation vertically one the screen */
+    background-image: url(../images/status.gif); /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px; /* is width and height divided by two */
+}
+
+/* General */
+#main-wrapper {
+     overflow: hidden;
+}
+
+.templatemo-site-title { 
+    color: #fff !important; 
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+	font-size: 48px;
+}
+
+.templatemo-site-title a, .templatemo-site-title a:hover { 
+	color: #fff;
+	text-decoration: none;
+}
+
+img.slide {
+    width: 100%; 
+    z-index: -9999999; 
+    position: absolute;
+}
+
+.active {
+    display: block;
+}
+
+.inactive {
+    right: 703px;
+    display: none;
+}
+
+.image-section {
+    position: fixed;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+}
+
+.templatemo-content {
+    position: static;
+    overflow: hidden; 
+    margin-top: 30%;
+}
+
+.templatemo-content section {
+    font-family: 'Balthazar', serif;
+    position: relative; 
+    overflow: hidden;
+    top: 0; 
+	text-shadow: 1px 1px 2px #000;
+    background-color: rgba(255,255,255,0.0);
+    padding-bottom: 20px;
+}
+
+
+.templatemo-content-wrapper {
+    overflow: hidden;
+}
+
+.templatemo-content h2 {
+    color: #fff;
+    font-family: 'Balthazar', serif;
+	font-weight: 600;
+	text-shadow: 2px 2px 3px #000;
+	max-width: 650px;
+}
+
+.templatemo-content p {
+    font-family: 'Balthazar', serif;
+	font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+	text-align: justify;
+	padding: 2px 20px 2px 20px;
+	max-width: 650px;
+}
+
+.templatemo-content a {
+	color: #fff;
+	text-decoration: none;
+}
+.templatemo-content a:hover {
+	text-decoration: underline;
+	text-decoration-color: #4862A3;
+}
+.menu {
+    position: fixed; 
+    width: 100%;
+    z-index: 1; 
+    top: 0 px;
+}
+
+#menu-list {
+    background-color: rgba(0, 0, 0,0.5);
+    font-size: 16px; 
+    padding: 0;
+}
+
+#menu-list > li {
+    display: inline-block;
+	min-width: 90px;
+	text-align: center;
+}
+
+#menu-list > li > a {
+    font-family: 'Balthazar', serif; 
+    padding-top: 10px;
+	padding-bottom: 10px;
+    text-decoration: none; 
+    display: block;
+    color: #fff; 
+}
+
+#menu-list > .active > a,
+#menu-list > li > a:hover { 
+    background-color: rgba(255,255,255,0.25);
+}
+
+
+#responsive {
+    font-size: 16px;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#responsive li {
+    display: block;
+}
+
+#responsive li a {
+    font-family: 'Balthazar', serif; 
+    color: #fff; 
+    text-decoration: none;
+    padding: 10px 0 5px 0;
+    display: block;
+}
+
+
+
+#responsive > .active > a,
+#responsive li a:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#map-canvas {
+	height: 256px;
+	margin-bottom: 10px;
+}
+
+.templatemo-content {
+    padding-bottom: 6%;
+}
+
+.footer {
+    overflow: hidden; 
+    position: fixed; 
+    bottom: 10px;
+}
+
+.footer-text {
+    font-family: 'Balthazar', serif; 
+    color: #fff; 
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 1);
+    margin-left: 30px;
+    font-size: 12px;
+}
+
+.footer-text a, .footer-text a:hover { 
+	color: #fff;
+	text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .footer {
+        overflow:hidden; 
+        position:static;
+        text-align: center;
+        
+    }
+    .footer-text {
+        margin-left: 0;
+    }
+}
+
+#team-text {
+	margin-top: -20px;
+}
+
+.team_container {
+	display: inline-block;
+	position: relative;
+	margin: 12px 0 0 0px;
+	padding: 0 0 0 20px;
+	
+}
+
+.team_container img {
+	display: block;
+	max-height:200px;
+	-webkit-box-shadow: 4px 4px 12px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: 4px 4px 12px 2px rgba(0,0,0,0.5);
+	box-shadow: 4px 4px 12px 2px rgba(0,0,0,0.5);
+}
+.team_container span {
+	position: absolute;
+	bottom: 0;	
+}
+
+.team_container span p {
+	margin-bottom: -2px;
+	padding-left: 5px ;
+}
